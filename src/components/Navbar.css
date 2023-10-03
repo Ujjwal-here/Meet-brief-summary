@@ -1,0 +1,28 @@
+.nav {
+    padding: 1.8rem 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brand-heading {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.brand-quote {
+    font-size: 0.8rem;
+}
+
+.nav-elements {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.1rem;
+    gap: 4rem;
+    font-weight: 600;
+}
+
+.nav-element {
+    cursor: pointer;
+}
