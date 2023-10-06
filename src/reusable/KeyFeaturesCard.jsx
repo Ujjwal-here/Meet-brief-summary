@@ -1,6 +1,6 @@
-import './ReusableCardTwo.css'
+import './KeyFeaturesCard.css'
 
-export function ReusableCardTwo({heading, para}) {
+export function KeyFeaturesCard({heading, para}) {
     return (
         <section className="main">
             <h1 className="main-heading">{heading}</h1>
