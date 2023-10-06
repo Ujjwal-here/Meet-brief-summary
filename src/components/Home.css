@@ -1,0 +1,50 @@
+.home-s1-main {
+    margin: 9rem 10rem;
+}
+
+.home-s1-main-div {
+    display: flex;
+    align-items: center;
+    gap: 7rem;
+}
+
+.home-s1-main-div-img {
+    width: 31rem;
+}
+
+.home-s1-main-div-div-h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 4rem;
+}
+
+.home-s1-main-div-div-p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.home-s1-main-div-div-btn {
+    font-family: 'Assistant', sans-serif;
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    border: none;
+    background-color: #FF7D6D;
+    color: white;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.home-s2-main {
+    background-color: #fffaf9;
+}
+
+.container {
+    padding: 6rem 10rem;
+}
+
+.home-s2-main-h2 {
+    text-align: center;
+    font-size: 2.9rem;
+}
+
