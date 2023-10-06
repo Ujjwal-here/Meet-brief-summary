@@ -1,6 +1,7 @@
 import './Home.css'
 import MeetingPic from '../undraw_remote_meeting_re_abe7.svg'
 import {KeyFeatures} from "./KeyFeatures";
+import {HowExtensionWorks} from "./HowExtensionWorks";
 
 export function Home() {
     return (
@@ -32,10 +33,11 @@ export function Home() {
 
             <section className="home-s3-main">
                 <div className="container">
-                    <h2 className="home-s2-main-h2">How Extension Works</h2>
-                    <KeyFeatures/>
+                    <h2 className="home-s3-main-h2">How Extension Works</h2>
+                    <HowExtensionWorks/>
                 </div>
             </section>
+
         </>
     )
 }
