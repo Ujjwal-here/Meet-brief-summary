@@ -1,8 +1,9 @@
 .nav {
-    padding: 1.8rem 8rem;
+    padding: 1.3rem 8rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #fff2f0;
 }
 
 .brand-heading {
@@ -11,18 +12,41 @@
 }
 
 .brand-quote {
+    margin-top: -0.2rem;
     font-size: 0.8rem;
+    color: #FF7D6D;
+    font-weight: 500;
 }
 
 .nav-elements {
     display: flex;
     text-decoration: none;
     list-style: none;
-    font-size: 1.1rem;
-    gap: 4rem;
-    font-weight: 600;
+    font-size: 1.05rem;
+    gap: 3rem;
+    font-weight: 500;
 }
 
 .nav-element {
+    display: flex;
+    align-items: center;
     cursor: pointer;
+}
+
+li span {
+    margin-left: 3px;
+}
+
+.auth {
+    padding: 0.5rem 2rem;
+    border: 1px solid #FF7D6D;
+    font-size: 0.9rem;
+    font-weight: 700;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.active {
+    border-bottom: 2px solid #FF7D6D;
 }

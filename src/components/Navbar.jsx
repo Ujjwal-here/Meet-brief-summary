@@ -1,4 +1,8 @@
 import "./Navbar.css"
+import {FaHome, FaMeetup} from "react-icons/fa"
+import {RiLoginCircleFill} from "react-icons/ri"
+import {FcAbout} from "react-icons/fc"
+import {TiContacts} from "react-icons/ti"
 
 function Navbar() {
     return <nav className="nav">
@@ -8,11 +12,28 @@ function Navbar() {
         </div>
         <div className="nav-items">
             <ul className="nav-elements">
-                <li className="nav-element">Home</li>
-                <li className="nav-element">About</li>
-                <li className="nav-element">Blog</li>
-                <li className="nav-element">Career</li>
+                <li className="nav-element active">
+                    <FaHome/>
+                    <span>Home</span>
+                </li>
+                <li className="nav-element">
+                    <FaMeetup/>
+                    <span>Meetings</span>
+                </li>
+                <li className="nav-element">
+                    <FcAbout/>
+                    <span>About</span>
+                </li>
+                <li className="nav-element">
+                    <TiContacts/>
+                    <span>Contact</span>
+                </li>
+
             </ul>
+        </div>
+        <div className="auth">
+            <RiLoginCircleFill/>
+            <span>Login</span>
         </div>
     </nav>
 }
