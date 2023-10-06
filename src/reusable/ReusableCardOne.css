@@ -1,0 +1,28 @@
+
+.card {
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.card-heading {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+hr {
+    border: 1px solid #FF7D6D;
+}
+
+.card-para {
+    margin-top: 0.5rem;
+    font-size: 0.75rem;
+}
+
+.readmore {
+    text-align: right;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
