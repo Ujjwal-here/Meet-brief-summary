@@ -11,12 +11,12 @@
 
 
 .introduction-main-img {
-    width: 12rem;
+    width: 11rem;
     transform: rotateY(0deg) rotate(-45deg);
 }
 
 .introduction-main-img-two {
-    width: 12.5rem;
+    width: 12rem;
     transform: rotateY(0deg) rotate(45deg);
 }
 
