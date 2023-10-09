@@ -7,12 +7,12 @@
 .key-features-card-main-div {
     padding: 2rem;
     border-radius: 5px;
-    margin-bottom: 1rem;
     border: 1px solid #FF7D6D;
-    height: 15rem;
+    height: 10rem;
 }
 
 .key-features-card-main-div-two {
+    margin-top: 3rem;
     padding: 0.5rem 1rem 2rem 1.5rem;
 }
 
