@@ -1,23 +1,32 @@
-.main {
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    padding: 2rem;
+.key-features-card-main {
+    box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
     border-radius: 8px;
     background-color: white;
 }
 
-.main-heading {
+.key-features-card-main-div {
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    border: 1px solid #FF7D6D;
+    height: 15rem;
+}
+
+.key-features-card-main-div-two {
+    padding: 0.5rem 1rem 2rem 1.5rem;
+}
+
+.key-features-card-main-div-img {
+    width: 100%;
+}
+
+.key-features-card-main-h1 {
     font-size: 1.5rem;
     line-height: 1.8rem;
     font-weight: 700;
 }
 
-.card-hr {
+.key-features-card-main-p {
+    font-size: 1rem;
     margin-top: 0.5rem;
-    margin-bottom: 1rem;
-    border: 1px solid #FF7D6D;
-}
-
-.main-para {
-    font-size: 1.05rem;
-    margin-top: 1rem;
 }
