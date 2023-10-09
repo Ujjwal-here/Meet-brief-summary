@@ -1,39 +1,39 @@
 import "./Navbar.css"
-import {FaHome, FaMeetup} from "react-icons/fa"
+import {TbBrandMeetup, TbHome2} from "react-icons/tb"
 import {RiLoginCircleFill} from "react-icons/ri"
-import {FcAbout} from "react-icons/fc"
+import {MdOutlineFeaturedPlayList} from "react-icons/md"
 import {TiContacts} from "react-icons/ti"
 
 function Navbar() {
-    return <nav className="nav">
-        <div className="brand">
-            <h1 className="brand-heading">Meet-Brief</h1>
-            <p className="brand-quote">Transform your Life with Just a Click</p>
+    return <nav className="navbar">
+        <div className="navbar_div">
+            <h1 className="navbar_div_h1">Meet-Brief</h1>
+            <p className="navbar_div_p">Transform your Life with Just a Click</p>
         </div>
-        <div className="nav-items">
-            <ul className="nav-elements">
-                <li className="nav-element active">
-                    <FaHome/>
-                    <span>Home</span>
+        <div className="navbar_div_two">
+            <ul className="navbar_div_two_ul">
+                <li className="navbar_div_two_ul_li active">
+                    <TbHome2 className="navbar_div_two_ul_li_icons"/>
+                    <span className="navbar_div_two_ul_li_span">Home</span>
                 </li>
-                <li className="nav-element">
-                    <FaMeetup/>
-                    <span>Meetings</span>
+                <li className="navbar_div_two_ul_li">
+                    <TbBrandMeetup className="navbar_div_two_ul_li_icons"/>
+                    <span className="navbar_div_two_ul_li_span">Meetings</span>
                 </li>
-                <li className="nav-element">
-                    <FcAbout/>
-                    <span>About</span>
+                <li className="navbar_div_two_ul_li">
+                    <MdOutlineFeaturedPlayList className="navbar_div_two_ul_li_icons"/>
+                    <span className="navbar_div_two_ul_li_span">About</span>
                 </li>
-                <li className="nav-element">
-                    <TiContacts/>
-                    <span>Contact</span>
+                <li className="navbar_div_two_ul_li">
+                    <TiContacts className="navbar_div_two_ul_li_icons"/>
+                    <span className="navbar_div_two_ul_li_span">Contact</span>
                 </li>
 
             </ul>
         </div>
-        <div className="auth">
-            <RiLoginCircleFill/>
-            <span>Login</span>
+        <div className="navbar_div_three">
+            <span className="navbar_div_two_three_span">Login</span>
+            <RiLoginCircleFill className="navbar_div_two_three_icons"/>
         </div>
     </nav>
 }

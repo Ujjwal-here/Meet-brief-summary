@@ -1,24 +1,26 @@
-.nav {
+.navbar {
     padding: 1.3rem 8rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #fff2f0;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
 }
 
-.brand-heading {
-    font-size: 2rem;
-    font-weight: 900;
+
+.navbar_div_h1 {
+    font-size: 1.8rem;
+    font-weight: 800;
 }
 
-.brand-quote {
+.navbar_div_p {
     margin-top: -0.2rem;
     font-size: 0.8rem;
-    color: #FF7D6D;
-    font-weight: 500;
+    color: black;
+    font-weight: 400;
+
 }
 
-.nav-elements {
+.navbar_div_two_ul {
     display: flex;
     text-decoration: none;
     list-style: none;
@@ -27,19 +29,21 @@
     font-weight: 500;
 }
 
-.nav-element {
+.navbar_div_two_ul_li {
     display: flex;
     align-items: center;
     cursor: pointer;
 }
 
-li span {
+
+.navbar_div_two_ul_li_span {
     margin-left: 3px;
+    font-weight: 400;
 }
 
-.auth {
+.navbar_div_three {
     padding: 0.5rem 2rem;
-    border: 1px solid #FF7D6D;
+    border: 1px solid black;
     font-size: 0.9rem;
     font-weight: 700;
     border-radius: 8px;
@@ -47,6 +51,8 @@ li span {
     align-items: center;
 }
 
+
 .active {
-    border-bottom: 2px solid #FF7D6D;
+    border-bottom: 2px solid #FB0023;
+    font-weight: bolder;
 }
