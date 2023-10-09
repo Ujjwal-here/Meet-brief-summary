@@ -1,0 +1,25 @@
+.footer-main {
+    background-color: #fff2f0;
+}
+
+.footer-main-container {
+    padding: 3rem 10rem;
+}
+
+.footer-main-h1 {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.footer-main-h1 span {
+    font-weight: 600;
+    margin-left: 0.2rem;
+}
+
+.footer-main-p {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+
