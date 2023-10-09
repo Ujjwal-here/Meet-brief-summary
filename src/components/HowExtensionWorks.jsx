@@ -1,27 +1,30 @@
 import {HowExtensionWorksCard} from "../reusable/HowExtensionWorksCard";
 import "./HowExtensionWorks.css"
+import Install from "../install.svg"
+import Summary from "../summary.svg"
+import Process from "../process.svg"
+
 
 export function HowExtensionWorks() {
     return (
         <div className="how-extension-works">
             <HowExtensionWorksCard
-                heading="Installation & Authentication"
-                paraOne="Download the Meet-Brief Extension"
+                pic={Install}
+                heading="Install & Login"
+                paraOne="Head over to the Chrome Web Store or On our Website and download the Meet-Breif Extension."
                 paraTwo="Log in with your existing credentials or Sign up to get started."
             />
             <HowExtensionWorksCard
+                pic={Process}
                 heading="Generate Captions"
                 paraOne="Click on the extension icon to open the caption generation interface."
-                paraTwo="Hit 'Generate' to start capturing captions from your Google Meet session.."
+                paraTwo="Hit 'Generate' to start capturing captions from your Google Meet session. Hit
+                'Stop' when the meeting concludes to halt caption capture."
             />
             <HowExtensionWorksCard
-                heading="Summary and Meeting Code"
+                pic={Summary}
+                heading="Summary"
                 paraOne="The extension processes captions and generates a concise summary once you Hit 'Stop'"
-                paraTwo="Access the summary along with the unique meeting code on our dedicated site."
-            />
-            <HowExtensionWorksCard
-                heading="Summary and Meeting Code"
-                paraOne="Once the meeting ends, the extension processes captions and generates a concise summary."
                 paraTwo="Access the summary along with the unique meeting code on our dedicated site."
             />
         </div>
