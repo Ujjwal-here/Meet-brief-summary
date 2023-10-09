@@ -1,0 +1,45 @@
+.introduction-main {
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+
+}
+
+.introduction-main-div {
+    text-align: center;
+}
+
+
+.introduction-main-img {
+    width: 12rem;
+    transform: rotateY(0deg) rotate(-45deg);
+}
+
+.introduction-main-img-two {
+    width: 12.5rem;
+    transform: rotateY(0deg) rotate(45deg);
+}
+
+.introduction-main-div-h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 4rem;
+}
+
+.introduction-main-div-p {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+
+.introduction-main-div-btn {
+    font-family: 'Assistant', sans-serif;
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    border: none;
+    background-color: #ff5858;
+    color: white;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 700;
+
+}
