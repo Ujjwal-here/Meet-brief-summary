@@ -1,33 +1,44 @@
-.main {
+.extension-card-main {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    padding: 2rem;
     border-radius: 8px;
     background-color: white;
 }
 
-.main-heading {
+.extension-card-main-div {
+    height: 15rem;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ff5858;
+    border-radius: 10px;
+}
+
+.extension-card-main-div-two {
+    margin-top: 3rem;
+    padding: 0.5rem 1rem 2rem 1.5rem;
+}
+
+.extension-card-main-div-img {
+    width: 100%;
+    border-radius: 5;
+}
+
+.extension-card-main-div-two-h1 {
     font-size: 1.5rem;
     line-height: 1.8rem;
     font-weight: 700;
 }
 
-.card-hr {
-    margin-top: 0.5rem;
-    margin-bottom: 1rem;
-    border: 1px solid #FF7D6D;
-}
-
-.main-para {
+.extension-card-main-div-two-div-p {
     font-size: 1.05rem;
     margin-top: 1rem;
     margin-left: 0.1rem;
 }
 
-.icons {
+.extension-card-main-div-two-div-icons {
     color: #FF7D6D;
     font-size: 0.8rem;
 }
 
-.main-div {
+.extension-card-main-div-two-div {
     margin-top: 1rem;
 }
