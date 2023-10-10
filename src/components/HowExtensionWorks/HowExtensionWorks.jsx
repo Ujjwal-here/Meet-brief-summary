@@ -1,8 +1,8 @@
-import {HowExtensionWorksCard} from "../reusable/HowExtensionWorksCard";
+import {HowExtensionWorksCard} from "../../reusable/HowExtensionWorksCard";
 import "./HowExtensionWorks.css"
-import Install from "../install.svg"
-import Summary from "../summary.svg"
-import Process from "../process.svg"
+import Install from "../../assets/install.svg"
+import Summary from "../../assets/summary.svg"
+import Process from "../../assets/process.svg"
 
 
 export function HowExtensionWorks() {
