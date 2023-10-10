@@ -1,7 +1,7 @@
 import './Home.css'
-import {KeyFeatures} from "../KeyFeatures";
-import {HowExtensionWorks} from "../HowExtensionWorks";
-import {Introduction} from "../Introduction";
+import {KeyFeatures} from "../KeyFeatures/KeyFeatures";
+import {HowExtensionWorks} from "../HowExtensionWorks/HowExtensionWorks";
+import {Introduction} from "../Introduction/Introduction";
 
 export function Home() {
     return (

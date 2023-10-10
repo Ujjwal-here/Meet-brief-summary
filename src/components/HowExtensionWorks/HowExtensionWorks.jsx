@@ -1,4 +1,4 @@
-import {HowExtensionWorksCard} from "../../reusable/HowExtensionWorksCard";
+import {HowExtensionWorksCard} from "../../reusable/HowExtensionWorksCard/HowExtensionWorksCard";
 import "./HowExtensionWorks.css"
 import Install from "../../assets/install.svg"
 import Summary from "../../assets/summary.svg"

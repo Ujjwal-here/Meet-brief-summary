@@ -1,4 +1,4 @@
-import {KeyFeaturesCard} from "../../reusable/KeyFeaturesCard";
+import {KeyFeaturesCard} from "../../reusable/KeyFeaturesCard/KeyFeaturesCard";
 import './KeyFeatures.css'
 import DataExtraction from "../../assets/data-extraction.svg"
 import Summary from "../../assets/summary.svg"

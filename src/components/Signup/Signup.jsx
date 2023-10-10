@@ -1,5 +1,5 @@
 import SignupImage from "../../assets/signup.svg"
-import {Auth} from "../Auth";
+import {Auth} from "../../reusable/Auth/Auth";
 
 export function Signup() {
     return (

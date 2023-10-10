@@ -1,11 +1,11 @@
-import {ReusableCardOne} from "../../reusable/ReusableCardOne";
+import {MeetingsCard} from "../../reusable/MeetingsCard/MeetingsCard";
 import "./Meetings.css"
 
 export function Meetings() {
     return (
         <div className="cards">
-            <ReusableCardOne/>
-            <ReusableCardOne/>
+            <MeetingsCard/>
+            <MeetingsCard/>
         </div>
 
     )

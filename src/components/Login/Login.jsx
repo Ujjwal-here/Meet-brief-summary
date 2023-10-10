@@ -1,4 +1,4 @@
-import {Auth} from "../Auth";
+import {Auth} from "../../reusable/Auth/Auth";
 import LoginImage from "../../assets/login.svg"
 
 export function Login() {
