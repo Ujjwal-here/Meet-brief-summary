@@ -3,6 +3,7 @@ import {TbBrandMeetup, TbHome2} from "react-icons/tb"
 import {RiLoginCircleFill} from "react-icons/ri"
 import {MdOutlineFeaturedPlayList} from "react-icons/md"
 import {TiContacts} from "react-icons/ti"
+import {Link, NavLink} from "react-router-dom"
 
 function Navbar() {
     return <nav className="navbar">
@@ -12,10 +13,13 @@ function Navbar() {
         </div>
         <div className="navbar_div_two">
             <ul className="navbar_div_two_ul">
-                <li className="navbar_div_two_ul_li active">
-                    <TbHome2 className="navbar_div_two_ul_li_icons"/>
-                    <span className="navbar_div_two_ul_li_span">Home</span>
-                </li>
+                <NavLink to="/home">
+                    <li className="navbar_div_two_ul_li active">
+                        <TbHome2 className="navbar_div_two_ul_li_icons"/>
+                        <span className="navbar_div_two_ul_li_span">Home</span>
+                    </li>
+                </NavLink>
+
                 <li className="navbar_div_two_ul_li">
                     <TbBrandMeetup className="navbar_div_two_ul_li_icons"/>
                     <span className="navbar_div_two_ul_li_span">Meetings</span>
@@ -31,10 +35,13 @@ function Navbar() {
 
             </ul>
         </div>
-        <div className="navbar_div_three">
-            <span className="navbar_div_two_three_span">Login</span>
-            <RiLoginCircleFill className="navbar_div_two_three_icons"/>
-        </div>
+        <Link to="/login">
+            <div className="navbar_div_three">
+                <span className="navbar_div_two_three_span">Login</span>
+                <RiLoginCircleFill className="navbar_div_two_three_icons"/>
+            </div>
+        </Link>
+
     </nav>
 }
 
