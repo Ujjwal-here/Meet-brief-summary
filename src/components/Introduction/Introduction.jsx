@@ -1,6 +1,6 @@
-import Meet from "../meet.svg";
+import Meet from "../../assets/meet.svg";
 import './Introduction.css'
-import Meet_Two from "../meet-two.svg"
+import Meet_Two from "../../assets/meet-two.svg"
 
 export function Introduction() {
     return (
