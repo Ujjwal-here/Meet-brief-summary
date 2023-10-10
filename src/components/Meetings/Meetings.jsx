@@ -1,4 +1,4 @@
-import {ReusableCardOne} from "../reusable/ReusableCardOne";
+import {ReusableCardOne} from "../../reusable/ReusableCardOne";
 import "./Meetings.css"
 
 export function Meetings() {
