@@ -1,9 +1,9 @@
-import {KeyFeaturesCard} from "../reusable/KeyFeaturesCard";
+import {KeyFeaturesCard} from "../../reusable/KeyFeaturesCard";
 import './KeyFeatures.css'
-import DataExtraction from "../data-extraction.svg"
-import Summary from "../summary.svg"
-import QA from "../Q&A.svg"
-import Interface from "../interface.svg"
+import DataExtraction from "../../assets/data-extraction.svg"
+import Summary from "../../assets/summary.svg"
+import QA from "../../assets/Q&A.svg"
+import Interface from "../../assets/interface.svg"
 
 export function KeyFeatures() {
     return (
