@@ -1,6 +1,6 @@
-import './ReusableCardOne.css'
+import './MeetingsCard.css'
 
-export function ReusableCardOne() {
+export function MeetingsCard() {
     return (
         <section className="card">
             <div className="container">
